@@ -1,3 +1,11 @@
+class Client:
+    def request(self, input_seq):
+        raise NotImplementedError()
+
+    def request_many(self, input_seqs)
+        raise NotImplementedError()
+
+
 class GNMTClient(Client):
 
     def __init__(self, model_name="address", host="localhost", port=9000, timeout=10):
